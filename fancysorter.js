@@ -1,18 +1,20 @@
-var entry_text_list = [
- ['cheese'    , 'yellow'],
- ['orange'    , 'orange'],
- ['monkey'    , 'brown'],
- ['shoe store', 'white'],
- ['bread'     , 'orange'],
- ['banana'    , 'yellow']
-]
-var header_text = ["name", "color"]
-
-var mytable = make_table ({
- entry_text_list : entry_text_list,
- header_text     : header_text,
- parent          : document.body,
- prefix          : "mytable--"
+window.addEventListener ('load', function () {
+ var entry_text_list = [
+  ['cheese'    , 'yellow'],
+  ['orange'    , 'orange'],
+  ['monkey'    , 'brown'],
+  ['shoe store', 'white'],
+  ['bread'     , 'orange'],
+  ['banana'    , 'yellow']
+ ]
+ var header_text = ["name", "color"]
+ 
+ var mytable = make_table ({
+  entry_text_list : entry_text_list,
+  header_text     : header_text,
+  parent          : document.body,
+  prefix          : "mytable--"
+ })
 })
 
 function make_table (init) {
