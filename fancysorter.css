@@ -1,0 +1,64 @@
+html, body {
+ height : 100%;
+ margin : 0;
+}
+
+.mytable--table {
+ position    : relative;
+ top         : 0;
+ border      : none;
+}
+.mytable--entry {
+ position    : absolute;
+ width       : 250px;
+ height      : 22px;
+ padding     : 4px;
+ line-height : 20px;
+ text-indent : 3px;
+ display     : block;
+}
+.mytable--header {
+ position    : relative;
+ width       : 250px;
+ height      : 22px;
+ padding     : 4px;
+ line-height : 20px;
+ text-indent : 3px;
+ display     : block;
+ cursor      : pointer;
+}
+.mytable--entry_wrapper {
+ position : relative;
+ display  : block;
+}
+.mytable--entry-subentry, .mytable--header-subentry {
+ font-family : arial;
+ display     : inline-block;      
+}
+.mytable--entry-subentry-1, .mytable--header-subentry-1 {
+ width : 123px
+}
+.mytable--entry-subentry-2, .mytable--header-subentry-2 {
+ width : 123px
+}
+.mytable--entry:nth-child(6n+0) {background-color:#fff0ff;}
+.mytable--entry:nth-child(6n+0) {color:#990099;border-top:solid 1px #995599;opacity: 0.95;}
+.mytable--entry:nth-child(6n+1) {background-color:#fefef0;}
+.mytable--entry:nth-child(6n+1) {color:#888800;border-top:solid 1px #999900;opacity: 0.95;}
+.mytable--entry:nth-child(6n+2) {background-color:#f0f0ff;}
+.mytable--entry:nth-child(6n+2) {color:#000099;border-top:solid 1px #555599;opacity: 0.95;}
+.mytable--entry:nth-child(6n+3) {background-color:#f0fff0;}
+.mytable--entry:nth-child(6n+3) {color:#009900;border-top:solid 1px #559955;opacity: 0.95;}
+.mytable--entry:nth-child(6n+4) {background-color:#fff0f0;}
+.mytable--entry:nth-child(6n+4) {color:#990000;border-top:solid 1px #995555;opacity: 0.95;}
+.mytable--entry:nth-child(6n+5) {background-color:#f0ffff;}
+.mytable--entry:nth-child(6n+5) {
+ color     : #009999;
+ border-top : solid 1px #009999;
+ opacity    : 0.95
+}
+
+button {
+ position : absolute;
+ bottom   : 0;
+}
