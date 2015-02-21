@@ -61,7 +61,7 @@ function make_table (init) {
   })
  })
  
- var line_height = init.line_height || getClientHeightFull(entry_object_array[0])
+ var line_height = init.line_height || entry_object_array[0].offsetHeight
  
  entry_wrapper.style.height = (line_height * entry_text_list.length) + "px"
  entry_wrapper.style.display = "block"
